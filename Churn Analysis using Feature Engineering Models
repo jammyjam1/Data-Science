@@ -1,0 +1,12 @@
+# Analysis Contents
+
+## Exploratory Data Analysis
+The 01_Exploratory_Data_Analysis.ipynb notebook covers the following:
+
+Loading and initial exploration of historical customer data and pricing data.
+Descriptive statistics including data types, summary statistics, and variable distributions.
+Data visualization using various plots and charts to understand the data distribution and relationships.
+
+### Hypothesis Verification
+The 02_Hypothesis_Verification.ipynb notebook investigates the hypothesis of price sensitivity's correlation with churn. It defines price sensitivity, performs calculations, and explores the relationship between price and churn indicators.
+
