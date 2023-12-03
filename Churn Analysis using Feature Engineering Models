@@ -1,6 +1,6 @@
-# Analysis Contents
+#### Analysis Contents
 
-## Exploratory Data Analysis
+##### Exploratory Data Analysis
 The 01_Exploratory_Data_Analysis.ipynb notebook covers the following:
 
 Loading and initial exploration of historical customer data and pricing data.
