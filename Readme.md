@@ -44,3 +44,39 @@ Include these explanations in your README.md to help others understand how the c
 The 02_Hypothesis_Verification.ipynb notebook investigates the hypothesis of price sensitivity's correlation with churn. 
 It defines price sensitivity, performs calculations, and explores the relationship between price and churn indicators.
 
+
+# Overview for Feature Engineering
+
+This repository contains the code and analysis for a churn prediction project aimed at understanding and predicting customer churn for a client. The project involves feature engineering to identify drivers of churn and the training of a Random Forest classifier to predict customer churn based on the engineered features.
+
+## Project Structure
+
+data/: Contains the datasets used for analysis, including both the cleaned and engineered datasets.
+notebooks/: Includes Jupyter notebooks used for feature engineering and model training.
+feature_engineering.ipynb: Notebook demonstrating the process of feature engineering, including the calculation and enhancement of features.
+model_training_evaluation.ipynb: Notebook covering the training of the Random Forest classifier and the evaluation of the model's performance.
+scripts/: Contains any relevant Python scripts used for data manipulation, calculations, or modeling.
+summary/: (If applicable) Contains a summary document or slide with key findings and recommendations.
+
+
+## Feature Engineering
+
+The feature engineering process involved several steps to identify potential drivers of churn and create features with predictive power:
+
+Difference between off-peak prices: Calculated as the difference between off-peak prices in December and the preceding January.
+
+Enhancements on initial feature: Further enhanced the initial feature by calculating average and maximum price changes across periods and months.
+
+Transforming Boolean and categorical data: Transformed 'has_gas' column to binary flag and encoded categorical features using label encoding and one-hot encoding.
+
+## Model Training and Evaluation
+
+The Random Forest classifier was trained and evaluated to predict customer churn based on the engineered features:
+
+Training the Random Forest classifier: The classifier was trained on the engineered dataset to predict churn probability.
+
+Evaluation and metrics: Documented the model's performance, including areas of underperformance and justification for chosen evaluation metrics.
+
+Advantages and disadvantages of Random Forest: Discussed the strengths and weaknesses of using Random Forest for churn prediction.
+
+Business implications and model performance: Assessed the model's suitability in relation to the client's discount strategy and potential financial implications.
